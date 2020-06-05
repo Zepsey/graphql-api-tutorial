@@ -1,0 +1,18 @@
+{
+  "name": "graphql-medium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "s": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.14.2",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.17",
+    "nodemon": "^2.0.4"
+  }
+}
