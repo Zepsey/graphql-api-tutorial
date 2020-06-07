@@ -16,7 +16,6 @@ const connectDb = () => {
 
 const db = mongoose.connection;
 
-// log any connection errors
 db.on("error", console.error.bind(console, "MongoDB connection error"));
 
 module.exports = connectDb;

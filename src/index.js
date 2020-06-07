@@ -1,15 +1,10 @@
 const { ApolloServer } = require("apollo-server");
-
-const typeDefs = require("./types/Podcast");
 const connectDb = require("./config/db");
+const typeDefs = require("./types");
+const resolvers = require("./resolvers");
+const models = require("./models");
 
 connectDb();
-
-const createPodcast = require("./resolvers/mutations/createPodcast");
-
-const resolvers = require("./resolvers");
-
-const models = require("./models");
 
 const server = new ApolloServer({ 
   typeDefs, 

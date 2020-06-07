@@ -27,7 +27,7 @@ module.exports = gql`
   }
 
   type Query {
-    objects: [Podcast]
+    podcasts: [Podcast]
   }
 
   type Mutation {

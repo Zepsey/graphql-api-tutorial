@@ -6,6 +6,6 @@ module.exports = async (_, {id}, {models}) => {
 
   if(deletePodcast.deletedCount) return{id: id}
 
-  else throw new ApolloError(`Failed to delete address.`,500);
+  else throw new ApolloError(`Failed to delete address.`);
 
 };
