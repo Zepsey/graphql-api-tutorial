@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^2.14.2",
+    "apollo-server": "^2.25.4",
     "dotenv": "^8.2.0",
     "mongoose": "^5.9.17",
     "nodemon": "^2.0.4"
